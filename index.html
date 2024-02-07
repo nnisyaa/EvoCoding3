@@ -17,11 +17,11 @@
 <body>
     <div class="header">
         <div class="left-header">
-            <a href="">HOME</a>
-            <a href="">BAND</a>
-            <a href="">TOUR</a>
-            <a href="">CONTACT</a>
-            <a href="">MORE</a>
+            <a class="header-element" href="">HOME</a>
+            <a class="header-element" href="">BAND</a>
+            <a class="header-element" href="">TOUR</a>
+            <a class="header-element"href="">CONTACT</a>
+            <a class="header-element" href="">MORE</a>
         </div>
         <!-- <div class="search-icon-container">
             <img class="search-icon" src="images/search-icon.png" alt="">
@@ -62,31 +62,29 @@
             </div>
         </div>
     </div>
-
     <main>
         <div class="tour-container">
             <h2 class="main-header h2">TOUR DATES</h2>
             <p class="main-header2">Remember to book your tickets!</p>
             <div class="tour-dates-container">
                 <div class="tour-dates-container-items">
-                    <p>September</p>
+                    <p class="tour-dates">September</p>
                     <button class="sold-out">Sold out</button>
                 </div>
                 <hr>
                 <div class="tour-dates-container-items">
-                    <p>October</p>
+                    <p class="tour-dates">October</p>
                     <button class="sold-out">Sold out</button>
                 </div>
                 <hr>
-                <div class="tour-dates-container-items">
-                    <p>November</p>
-                    <div>
+                <div class="tour-dates-container-items third">
+                    <p class="tour-dates">November</p>
+                    <div class="left-tickets">
                         <p>3</p>
                     </div>
                 </div>
             </div>
         </div>
-
         <div class="tickets-container">
             <div class="tickets-container-item">
                 <div class="tickets-container-item-img">
@@ -124,7 +122,7 @@
                     <p class="lorum">
                         Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                     </p>
-                    <button class="buy-tickets">Buy Tickets</button>
+                    <button type="submit" class="buy-tickets">Buy Tickets</button>
                 </div>
             </div>
         </div>
@@ -133,24 +131,26 @@
             <p class="main-header2">Fan? Drop a note!</p>
             <div class="contact-container-item">
                 <div class="contact-container-item-left">
-                    <div class="contact-container-item-img">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <i class="fa-solid fa-phone"></i>
-                        <i class="fa-solid fa-envelope"></i>
+                    <div class="a">
+                        <span class="contact-container-item-img"><i class="fa-solid fa-location-dot"></i></span>
+                        <span class="contact-text">Chicago, US</span>
                     </div>
-                    <div class="contact-container-item-text">
-                        <p class="contact-text">Chicago, US</p>
-                        <p class="contact-text">Phone: +00 151515</p>
-                        <p class="contact-text">Email: mail@mail.com</p>
+                    <div class="a"> 
+                        <span class="contact-container-item-img"><i class="fa-solid fa-phone"></i></span>
+                        <span class="contact-text">Phone: +00 151515</span>
+                    </div>
+                    <div class="a"> 
+                        <span class="contact-container-item-img"><i class="fa-solid fa-envelope"></i></span>
+                        <span class="contact-text">Email: mail@mail.com</span>
                     </div>
                 </div>
                 <div class="contact-container-item-right">
                     <form>
-                        <input placeholder="Name" type="text" id="fname" name="fname">
-                        <input placeholder="Email" type="email" id="lname" name="lname"><br>
-                        <input placeholder="Message" type="text" id="fname" name="fname">
+                        <input class="name" placeholder="Name" type="text" id="fname" name="fname">
+                        <input class="name email" placeholder="Email" type="email" id="lname" name="lname"><br>
+                        <input class="name message" placeholder="Message" type="text" id="fname" name="fname">
                     </form>
-                      
+                    <button type="submit" class="send">SEND</button>
                 </div>
             </div>
         </div>
@@ -158,12 +158,23 @@
     <div>
         <img class="map" src="images/map.jpg" alt="">
     </div>
-    <div class="soial-media">
+    <footer>
+        <div class="soial-media">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-snapchat"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <div class="end">
+            <span class="link">Powered by </span>
+            <a href="https://www.w3schools.com/w3css/default.asp">w3.css </a>
+        </div>
+    </footer>
 
-    </div>
-    <p class="link">
-        Powered by <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a>
-    </p>
+    
+    
 
 
 

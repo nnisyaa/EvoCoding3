@@ -22,7 +22,7 @@
     font-size: 15px;
     gap: 3px;
 }
-a{
+.header-element{
     outline: none;
     text-decoration: none;
     color: white;
@@ -32,7 +32,7 @@ a{
     justify-content: center;
     align-items: center;
 }
-a:hover{
+.header-element:hover{
     background-color: lightslategray;
 }
 .search-icon{
@@ -136,21 +136,48 @@ main{
 .tour-dates-container-items{
     display: flex;
     flex-direction: row;
+    height: 39.3px;
+    align-items: center;
+    padding-left: 10px;
 }
 .sold-out{
-    background-color: red;
+    background-color: #f44336;
     color: white;
+    border-style: none;
+    padding: 0 8px;
+    text-align: center;
+    margin-left: 16px;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    width: 69.69px;
+    height: 22.5px;
 }
-
-
-
-
-
+.tour-dates{
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+}
+.left-tickets{
+    background-color: black;
+    border-radius: 50%;
+    width: 23.5px;
+    height: 22.5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+    align-items: center;
+    font-size: 15px;
+}
+.third{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+}
 .tickets-container{
     display: flex;
     flex-direction: row;
     width: 53%;
-    gap: 30px;
+    gap: 15px;
     margin: 0 auto;
     margin-top: 90px; 
     font-family: Lato, sans-serif;
@@ -191,23 +218,25 @@ main{
     margin-top: 20px;
     font-size: 15px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
-.contact-container{
-    
+.buy-tickets:hover{
+    background-color: lightslategray;
 }
 .h3{
-    padding-top: 110px;
+    padding-top: 105px;
 }
 .contact-container-item{
     display: flex;
     flex-direction: row;
-    margin-top: 80px;
     align-items: center;
+    justify-content: center;
+    gap: 200px;
 }
 .contact-container-item-left{
     display: flex;
-    flex-direction: row;
-    gap: 15px;
+    flex-direction: column;
+    gap: 5px;
 }
 .contact-container-item-img{
     display: flex;
@@ -216,37 +245,91 @@ main{
     align-items: first baseline;
     gap: 7px;
 }
+.a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 .contact-text{
     font-size: 18px;
     font-family: Lato , sans-serif;
+    line-height: 25px;
 }
+.contact-container-item-right{
+    margin-top: 50px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.name{
+    font-family:Lato, sans-serif ;
+    font-weight: 400;
+    padding: 8px;
+    font-size: 15px;
+    border-color: rgb(204, 204, 204) ;
+    border-width: 0.8px;
+    border-style:solid;
+    width: 188.39px;
+}
+.message{
+    margin-top: 8px;
+    width: 390.99px;
+}
+.email{
+    margin-left: 10px;
+}
+.send{
+    background-color: black;
+    color: white;
+    border-style: none;
+    width: 71.3px;
+    height: 38.5px;
+    margin-top: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 320px;
+    
+}
 .map{
-    /* width: 100%; */
+    width: 100%;
     filter: grayscale(0.5);
-    margin-top: 500px;
+    margin-top: 450px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 .soial-media{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: gray;
+    font-size: 25px;
+    gap: 5px;
+    padding-top: 70px;
 }
 .link{
     color: lightslategray;
-    text-decoration: none;
 }
-
+a{
+    color: gray;
+    margin-left: 5px;
+}
+.end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 100px;
+}
+footer{
+    background-color: #f1f1f1;
+}
 }
